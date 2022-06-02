@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82EAD402848B75B00373C4F /* ExtendContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82EAD3F2848B75B00373C4F /* ExtendContentView.swift */; };
 		C8616C3B2816989200E7A7F2 /* EgeClassPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8616C3A2816989200E7A7F2 /* EgeClassPlaygroundApp.swift */; };
 		C8616C3D2816989200E7A7F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8616C3C2816989200E7A7F2 /* ContentView.swift */; };
 		C8616C3F2816989600E7A7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8616C3E2816989600E7A7F2 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C82EAD3F2848B75B00373C4F /* ExtendContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendContentView.swift; sourceTree = "<group>"; };
 		C8616C372816989200E7A7F2 /* EgeClassPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgeClassPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8616C3A2816989200E7A7F2 /* EgeClassPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgeClassPlaygroundApp.swift; sourceTree = "<group>"; };
 		C8616C3C2816989200E7A7F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				C8616C3E2816989600E7A7F2 /* Assets.xcassets */,
 				C8616C432816989600E7A7F2 /* EgeClassPlayground.entitlements */,
 				C8616C402816989600E7A7F2 /* Preview Content */,
+				C82EAD3F2848B75B00373C4F /* ExtendContentView.swift */,
 			);
 			path = EgeClassPlayground;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8616C3D2816989200E7A7F2 /* ContentView.swift in Sources */,
+				C82EAD402848B75B00373C4F /* ExtendContentView.swift in Sources */,
 				C8616C3B2816989200E7A7F2 /* EgeClassPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

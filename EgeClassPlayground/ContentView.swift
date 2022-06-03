@@ -11,6 +11,7 @@ struct ContentView: View {
 	@State private var placeSentence = "我-們-要-去-辦-公-室。"
 	@State private var highlightWordIndex = -1
 	@State private var composeWordIndex = -1
+	@State internal var placeSentence2 = "我-們-要-去-辦-公-室。"
 	var body: some View {
 		VStack {
 			Spacer()
@@ -47,6 +48,9 @@ struct ContentView: View {
 				print(composeWordIndex)
 			}
 			
+			Spacer().frame(height:40)
+			fetchView()
+			
 			Spacer()
 		}
 		
@@ -82,43 +86,7 @@ struct ContentView: View {
 		return stringToTextView
 	}
 	
-	/*func multiTextView3(sentence:String)->Text {
-		let testo : String = sentence
-		let stringArray = testo.components(separatedBy: "-")
-		var stringToTextView = Text("-")
-		for (index,item) in stringArray.enumerated() {
-			if index == 1 {
-				stringToTextView = stringToTextView + Text(item).bold()
-			} else {
-				stringToTextView = stringToTextView + Text(item)
-			}
-		}
-		return stringToTextView
-	}*/
-	
-	/*func multiTextView4(sentence:String, highlight:Int)->Text {
-		let stringArray = sentence.components(separatedBy: "-")
-		var stringToTextView = Text("")
-		
-		if highlight >= 0 && highlight<stringArray.count {
-			for (index,item) in stringArray.enumerated() {
-				if index == highlight {
-					if highlight == 0 {
-						stringToTextView = Text(item).bold().foregroundColor(Color.red)
-					} else {
-						stringToTextView = stringToTextView + Text(item).bold().foregroundColor(Color.red)
-					}
-				} else {
-					stringToTextView = stringToTextView + Text(item)
-				}
-			}
-		} else {
-			for item in stringArray{
-				stringToTextView = stringToTextView + Text(item)
-			}
-		}
-		return stringToTextView
-	}*/
+
 }
 
 struct ContentView_Previews: PreviewProvider {

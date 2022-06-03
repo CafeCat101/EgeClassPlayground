@@ -73,4 +73,12 @@ extension ContentView {
 		
 		return stringToTextView
 	}
+	
+	@ViewBuilder
+	func fetchView() -> some View {
+		Text("\(placeSentence2)")
+		Button("Btn", action: {
+			placeSentence2 = "Changed from extension"
+		})
+	}
 }

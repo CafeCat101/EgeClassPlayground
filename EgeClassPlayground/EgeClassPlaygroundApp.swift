@@ -11,7 +11,8 @@ import SwiftUI
 struct EgeClassPlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+					ReadIt()
         }
     }
 }
